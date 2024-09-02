@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAM Consulting by [Your Name]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SAM Consulting by [Your Name]</h1>
+            <p>Your Partner in Optimizing Software Asset Management</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#ebook">E-Book</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I am a seasoned SAM consultant with over 15 years of experience in enterprise software sales, procurement, and management. Certified in CSAM, ITIL, AWS, and Azure, I specialize in guiding organizations to achieve software compliance, optimize licensing costs, and enhance overall SAM maturity.</p>
+        <p>My expertise includes working with Microsoft, Adobe, Salesforce, and RedHat, among other leading software providers.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Services</h2>
+        <ul>
+            <li>Software Asset Management Consulting</li>
+            <li>SaaS and On-Premise Application Management</li>
+            <li>Cloud Management (Azure & AWS)</li>
+            <li>Software Compliance Audits</li>
+            <li>Licensing Optimization and Cost Reduction</li>
+            <li>SAM Tool Implementation (ServiceNow, Atlassian)</li>
+            <li>Custom Reporting and Data Accuracy Improvement</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <p>Over the years, I have worked with a range of clients to improve their SAM processes, increase savings, and ensure compliance. Some highlights include:</p>
+        <ul>
+            <li>Achieved over $1 million in cost savings through license optimization for a Fortune 500 company.</li>
+            <li>Implemented SAM Pro from ServiceNow and improved data accuracy, leading to enhanced stakeholder confidence.</li>
+            <li>Developed a strategic roadmap aligning SAM initiatives with corporate goals, moving from reactive to proactive management.</li>
+        </ul>
+    </section>
+
+    <section id="ebook" class="container">
+        <h2>Software Asset Management E-Book</h2>
+        <p>I have authored an e-book on how software asset management provides value to a company, including detailed steps, processes, and examples, as well as challenges and solutions.</p>
+        <a href="ebook.html" class="btn">Download the E-Book</a>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Ready to take your SAM program to the next level? Let’s connect.</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SAM Consulting by [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
